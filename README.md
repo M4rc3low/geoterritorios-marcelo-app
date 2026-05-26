@@ -1,87 +1,107 @@
 # GeoTerritorios Marcelo
 
-GeoTerritorios Marcelo e uma aplicacao web criada para organizar, visualizar e acompanhar territorios, predios, apartamentos, regioes e indicadores de cobertura em uma interface simples e produtiva.
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38B2AC?logo=tailwindcss&logoColor=white)
+![Maps](https://img.shields.io/badge/maps-ready-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-O projeto nasceu da necessidade de transformar informacoes territoriais dispersas em uma base digital mais clara, visual e facil de consultar.
+GeoTerritorios Marcelo e uma aplicacao web para organizar, visualizar e acompanhar territorios, predios, apartamentos, regioes e indicadores de cobertura em uma interface clara, responsiva e orientada por dados.
 
-## Visao geral
+O projeto transforma informacoes territoriais dispersas em uma base digital mais organizada, visual e facil de consultar.
 
-Em muitos cenarios, o controle de territorios depende de planilhas, anotacoes, mapas impressos e conferencias manuais. Isso dificulta saber rapidamente quais areas ja foram trabalhadas, quais ainda precisam de atencao e quais pontos devem receber prioridade.
+## Visao de produto
 
-O GeoTerritorios Marcelo busca resolver esse problema com uma aplicacao organizada, responsiva e preparada para evoluir com mapas, filtros, dashboards e indicadores operacionais.
+O controle territorial costuma depender de planilhas, anotacoes, mapas impressos e conferencias manuais. Esse processo dificulta saber rapidamente quais areas ja foram trabalhadas, quais ainda precisam de atencao e quais pontos devem receber prioridade.
 
-## Funcionalidades principais
+O GeoTerritorios Marcelo busca resolver esse problema com uma aplicacao centralizada, preparada para dashboards, mapas, filtros e indicadores operacionais.
+
+## Principais capacidades
 
 - Cadastro e organizacao de territorios
 - Controle de predios, apartamentos e enderecos
 - Acompanhamento de cobertura territorial
 - Identificacao de areas pendentes e concluidas
-- Indicadores para tomada de decisao
-- Organizacao visual por status e prioridade
-- Interface responsiva para computador e celular
-- Base para integracao futura com mapas e dados geograficos
+- Indicadores para priorizacao e tomada de decisao
+- Organizacao visual por status, regiao e prioridade
+- Base para integracao com mapas e dados geograficos
+- Interface responsiva para desktop e mobile
 
-## Tecnologias utilizadas
+## Stack tecnica
 
-- React
-- Vite
-- Tailwind CSS
-- React Router
-- React Leaflet
-- TanStack Query
-- Recharts
-- Lucide React
+| Camada | Tecnologia |
+| --- | --- |
+| Frontend | React 18 |
+| Build | Vite |
+| Estilizacao | Tailwind CSS |
+| Roteamento | React Router |
+| Mapas | React Leaflet |
+| Estado/dados | Local client + localStorage |
+| Data fetching | TanStack Query |
+| Graficos | Recharts |
+| UI/Icons | Radix UI + Lucide React |
+
+## Arquitetura
+
+```txt
+src/
+├── api/                 # Client local da aplicacao
+├── components/          # Componentes reutilizaveis
+├── lib/                 # Utilitarios e camada de apoio
+├── pages/               # Paginas principais
+└── main.jsx             # Entrada da aplicacao
+```
+
+A camada de dados local foi isolada para facilitar uma evolucao futura para backend real, banco persistente e integracoes com fontes geograficas externas.
 
 ## Como executar localmente
 
-Clone o repositorio:
-
 ```bash
 git clone https://github.com/M4rc3low/geoterritorios-marcelo-app.git
-```
-
-Acesse a pasta do projeto:
-
-```bash
 cd geoterritorios-marcelo-app
-```
-
-Instale as dependencias:
-
-```bash
 npm install
-```
-
-Execute o ambiente de desenvolvimento:
-
-```bash
 npm run dev
 ```
 
-Gere a versao de producao:
+Build de producao:
 
 ```bash
 npm run build
-```
-
-Visualize o build localmente:
-
-```bash
 npm run preview
 ```
 
-## Roadmap
+## Scripts
 
-- [ ] Adicionar capturas reais da interface
-- [ ] Publicar uma versao demonstrativa
-- [ ] Criar dashboard de cobertura territorial
-- [ ] Melhorar filtros por status, regiao e prioridade
-- [ ] Integrar camadas de mapa e dados geograficos
+| Comando | Descricao |
+| --- | --- |
+| `npm run dev` | Inicia o ambiente local |
+| `npm run build` | Gera build de producao |
+| `npm run preview` | Visualiza o build local |
+| `npm run lint` | Executa analise de lint |
+| `npm run lint:fix` | Corrige problemas automaticos de lint |
+| `npm run typecheck` | Executa verificacao de tipos/configuracao |
+
+## Qualidade e seguranca
+
+- Dados sensiveis nao devem ser versionados.
+- Arquivos de exportacao real devem ficar fora do repositorio.
+- Dados demonstrativos devem ser anonimizados.
+- Antes de publicar, executar `npm run build`, `npm run lint` e `npm run typecheck`.
+
+## Roadmap tecnico
+
+- [ ] Adicionar screenshots reais da interface
+- [ ] Publicar versao demonstrativa
+- [ ] Criar dashboard completo de cobertura territorial
+- [ ] Integrar camadas de mapa e arquivos KML/GeoJSON
+- [ ] Adicionar filtros avancados por status, regiao e prioridade
+- [ ] Implementar persistencia em backend
 - [ ] Preparar deploy em ambiente de producao
+- [ ] Adicionar monitoramento e logs operacionais
 
-## Objetivo profissional
+## Valor profissional
 
-Este projeto faz parte do portfolio de Marcelo Gomes e demonstra aplicacao pratica de desenvolvimento web, organizacao de dados, mapas, dashboards e solucao de problemas reais.
+Este projeto demonstra aplicacao pratica de desenvolvimento web, organizacao de dados, visualizacao geografica, dashboards e solucao de problemas reais com foco operacional.
 
 ## Autor
 
