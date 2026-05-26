@@ -1,28 +1,25 @@
-﻿# GeoTerritÃ³rios Marcelo
+# GeoTerritorios Marcelo
 
-GeoTerritÃ³rios Ã© uma aplicaÃ§Ã£o web para organizaÃ§Ã£o, visualizaÃ§Ã£o e acompanhamento de territÃ³rios, com foco em mapeamento, controle de prÃ©dios, apartamentos, regiÃµes e cobertura de trabalho em campo.
+GeoTerritorios Marcelo e uma aplicacao web criada para organizar, visualizar e acompanhar territorios, predios, apartamentos, regioes e indicadores de cobertura em uma interface simples e produtiva.
 
-> Projeto em evoluÃ§Ã£o. A proposta Ã© transformar dados territoriais em uma interface mais visual, prÃ¡tica e fÃ¡cil de acompanhar.
+O projeto nasceu da necessidade de transformar informacoes territoriais dispersas em uma base digital mais clara, visual e facil de consultar.
 
-## VisÃ£o geral
+## Visao geral
 
-Este projeto nasceu da necessidade de organizar informaÃ§Ãµes de territÃ³rio de forma mais eficiente, evitando controles espalhados e facilitando a tomada de decisÃ£o. A aplicaÃ§Ã£o busca reunir dados de prÃ©dios, endereÃ§os, Ã¡reas mapeadas e indicadores de cobertura em uma experiÃªncia simples e objetiva.
+Em muitos cenarios, o controle de territorios depende de planilhas, anotacoes, mapas impressos e conferencias manuais. Isso dificulta saber rapidamente quais areas ja foram trabalhadas, quais ainda precisam de atencao e quais pontos devem receber prioridade.
 
-## Problema que o projeto resolve
+O GeoTerritorios Marcelo busca resolver esse problema com uma aplicacao organizada, responsiva e preparada para evoluir com mapas, filtros, dashboards e indicadores operacionais.
 
-Em muitos cenÃ¡rios, o controle territorial depende de planilhas, anotaÃ§Ãµes manuais, mapas impressos e conferÃªncias repetitivas. Isso dificulta saber rapidamente o que jÃ¡ foi feito, o que falta fazer e quais Ã¡reas precisam de prioridade.
+## Funcionalidades principais
 
-O GeoTerritÃ³rios busca resolver esse problema com uma base digital organizada, visual e preparada para futuras integraÃ§Ãµes com mapas e dashboards.
-
-## Funcionalidades previstas
-
-- Cadastro e organizaÃ§Ã£o de territÃ³rios
-- Controle de prÃ©dios, blocos, apartamentos e endereÃ§os
-- VisualizaÃ§Ã£o de progresso e cobertura
-- SeparaÃ§Ã£o entre Ã¡reas concluÃ­das e pendentes
-- Indicadores para priorizaÃ§Ã£o
-- Interface responsiva
-- Base para integraÃ§Ã£o com mapas e dados geogrÃ¡ficos
+- Cadastro e organizacao de territorios
+- Controle de predios, apartamentos e enderecos
+- Acompanhamento de cobertura territorial
+- Identificacao de areas pendentes e concluidas
+- Indicadores para tomada de decisao
+- Organizacao visual por status e prioridade
+- Interface responsiva para computador e celular
+- Base para integracao futura com mapas e dados geograficos
 
 ## Tecnologias utilizadas
 
@@ -31,64 +28,60 @@ O GeoTerritÃ³rios busca resolver esse problema com uma base digital organizada
 - Tailwind CSS
 - React Router
 - React Leaflet
-- Recharts
 - TanStack Query
+- Recharts
 - Lucide React
 
 ## Como executar localmente
 
-Clone o repositÃ³rio:
+Clone o repositorio:
 
 ```bash
-git clone https://github.com/M4rc3low/geoterritorios_marcelo.git
+git clone https://github.com/M4rc3low/geoterritorios-marcelo-app.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
-cd geoterritorios_marcelo
+cd geoterritorios-marcelo-app
 ```
 
-Instale as dependÃªncias:
+Instale as dependencias:
 
 ```bash
 npm install
 ```
 
-
-```env
-```
-
-Execute o projeto:
+Execute o ambiente de desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
-## Scripts disponÃ­veis
+Gere a versao de producao:
 
 ```bash
-npm run dev        # inicia o ambiente de desenvolvimento
-npm run build      # gera a versÃ£o de produÃ§Ã£o
-npm run preview    # visualiza o build localmente
-npm run lint       # verifica problemas de lint
-npm run lint:fix   # corrige problemas de lint automaticamente
-npm run typecheck  # executa verificaÃ§Ã£o de tipos/configuraÃ§Ã£o
+npm run build
+```
+
+Visualize o build localmente:
+
+```bash
+npm run preview
 ```
 
 ## Roadmap
 
-- [ ] Adicionar prints da interface
-- [ ] Criar versÃ£o demonstrativa pÃºblica
-- [ ] Melhorar documentaÃ§Ã£o tÃ©cnica
-- [ ] Integrar mapas e camadas geogrÃ¡ficas
+- [ ] Adicionar capturas reais da interface
+- [ ] Publicar uma versao demonstrativa
 - [ ] Criar dashboard de cobertura territorial
-- [ ] Adicionar filtros por status, regiÃ£o e prioridade
-- [ ] Preparar deploy em ambiente de produÃ§Ã£o
+- [ ] Melhorar filtros por status, regiao e prioridade
+- [ ] Integrar camadas de mapa e dados geograficos
+- [ ] Preparar deploy em ambiente de producao
 
 ## Objetivo profissional
 
-Este projeto faz parte do meu portfÃ³lio de desenvolvimento e demonstra aplicaÃ§Ã£o prÃ¡tica de tecnologia em organizaÃ§Ã£o de dados, dashboards, mapas, produtividade e soluÃ§Ã£o de problemas reais.
+Este projeto faz parte do portfolio de Marcelo Gomes e demonstra aplicacao pratica de desenvolvimento web, organizacao de dados, mapas, dashboards e solucao de problemas reais.
 
 ## Autor
 
