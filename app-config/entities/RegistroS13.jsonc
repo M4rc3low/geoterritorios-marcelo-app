@@ -1,0 +1,73 @@
+{
+  "name": "RegistroS13",
+  "type": "object",
+  "properties": {
+    "territorio_num": {
+      "type": "string",
+      "title": "N\u00ba Territ\u00f3rio"
+    },
+    "tipo": {
+      "type": "string",
+      "title": "Tipo",
+      "enum": [
+        "casas",
+        "predios",
+        "comercial",
+        "outro"
+      ]
+    },
+    "designado": {
+      "type": "string",
+      "title": "Designado Para"
+    },
+    "data_designacao": {
+      "type": "string",
+      "title": "Data Designa\u00e7\u00e3o"
+    },
+    "data_conclusao": {
+      "type": "string",
+      "title": "Data Conclus\u00e3o"
+    },
+    "ano": {
+      "type": "string",
+      "title": "Ano de Servi\u00e7o"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "em_andamento",
+        "concluido"
+      ]
+    },
+    "observacoes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    },
+    "campanha": {
+      "type": "boolean",
+      "title": "\u00c9 Campanha",
+      "default": false
+    },
+    "conv_celebracao": {
+      "type": "number",
+      "title": "Convites Celebra\u00e7\u00e3o",
+      "default": 0
+    },
+    "conv_congresso": {
+      "type": "number",
+      "title": "Convites Congresso",
+      "default": 0
+    },
+    "pct_trabalhado": {
+      "type": "number",
+      "title": "% Trabalhado",
+      "default": 0
+    }
+  },
+  "required": [
+    "territorio_num",
+    "tipo",
+    "status"
+  ]
+}

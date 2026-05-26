@@ -1,0 +1,47 @@
+{
+  "name": "Apartamento",
+  "type": "object",
+  "properties": {
+    "condominio_id": {
+      "type": "string",
+      "title": "ID do Condom\u00ednio"
+    },
+    "complemento": {
+      "type": "string",
+      "title": "Complemento / Unidade"
+    },
+    "logradouro": {
+      "type": "string",
+      "title": "Logradouro"
+    },
+    "numero": {
+      "type": "string",
+      "title": "N\u00famero"
+    },
+    "lote": {
+      "type": "string",
+      "title": "Lote"
+    },
+    "uso": {
+      "type": "string",
+      "title": "Uso"
+    },
+    "area": {
+      "type": "string",
+      "title": "\u00c1rea m\u00b2"
+    },
+    "carta_enviada": {
+      "type": "boolean",
+      "title": "Carta Enviada",
+      "default": false
+    },
+    "publicador": {
+      "type": "string",
+      "title": "Publicador"
+    }
+  },
+  "required": [
+    "condominio_id",
+    "complemento"
+  ]
+}

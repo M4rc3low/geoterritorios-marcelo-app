@@ -1,0 +1,47 @@
+{
+  "name": "Territorio",
+  "type": "object",
+  "properties": {
+    "num": {
+      "type": "string",
+      "title": "N\u00famero"
+    },
+    "mapeado": {
+      "type": "string",
+      "title": "Mapeado",
+      "enum": [
+        "SIM",
+        "NAO"
+      ]
+    },
+    "interno": {
+      "type": "string",
+      "title": "Interno",
+      "enum": [
+        "SIM",
+        "NAO"
+      ]
+    },
+    "tipo": {
+      "type": "string",
+      "title": "Tipo",
+      "enum": [
+        "casas",
+        "predios",
+        "comercial"
+      ]
+    },
+    "quadras": {
+      "type": "string",
+      "title": "Quadras"
+    },
+    "imagem_url": {
+      "type": "string",
+      "title": "Imagem URL"
+    }
+  },
+  "required": [
+    "num",
+    "tipo"
+  ]
+}

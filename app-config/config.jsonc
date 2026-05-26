@@ -1,0 +1,9 @@
+{
+  "name": "GeoTerrit\u00f3rios",
+  "site": {
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "serveCommand": "npm run dev",
+    "outputDirectory": "./dist"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Condominio",
+  "type": "object",
+  "properties": {
+    "territorio": {
+      "type": "string",
+      "title": "Territ\u00f3rio"
+    },
+    "quadra": {
+      "type": "string",
+      "title": "Quadra"
+    },
+    "nome": {
+      "type": "string",
+      "title": "Nome do Condom\u00ednio"
+    },
+    "endereco": {
+      "type": "string",
+      "title": "Endere\u00e7o"
+    },
+    "cep": {
+      "type": "string",
+      "title": "CEP"
+    },
+    "fechado": {
+      "type": "string",
+      "title": "Fechado",
+      "enum": [
+        "SIM",
+        "NAO",
+        ""
+      ]
+    },
+    "total_aptos": {
+      "type": "number",
+      "title": "Total Apartamentos",
+      "default": 0
+    },
+    "cartas_enviadas": {
+      "type": "number",
+      "title": "Cartas Enviadas",
+      "default": 0
+    },
+    "publicadores": {
+      "type": "string",
+      "title": "Publicadores"
+    }
+  },
+  "required": [
+    "territorio",
+    "nome"
+  ]
+}
