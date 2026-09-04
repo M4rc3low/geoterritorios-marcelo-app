@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { geoterritoriosApi } from '@/api/geoterritoriosClient';
-import Pill from './Pill';
 import { toast } from 'sonner';
 
 export default function ApartamentosPanel({ condominio }) {
