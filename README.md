@@ -1,5 +1,13 @@
 # GeoTerritórios Marcelo
 
+<!-- portfolio-cover:start -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/M4rc3low/M4rc3low.github.io/main/assets/projects/geoterritorios.svg" alt="Capa conceitual ilustrativa do projeto geoterritorios-marcelo-app" width="920">
+</div>
+
+> **Capa visual ilustrativa:** representa o conceito do projeto; não é uma captura da aplicação em execução. Veja a [galeria visual completa](https://m4rc3low.github.io/projetos.html).
+<!-- portfolio-cover:end -->
+
 [![CI](https://github.com/M4rc3low/geoterritorios-marcelo-app/actions/workflows/ci.yml/badge.svg)](https://github.com/M4rc3low/geoterritorios-marcelo-app/actions/workflows/ci.yml)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
